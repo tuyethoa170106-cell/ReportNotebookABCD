@@ -1,0 +1,7 @@
+,missing_rate,decision
+price,0.0001,interpolate/impute median
+site,0.0,keep
+ts,0.0,keep
+kwh,0.0,keep
+sessions,0.0,keep
+temp,0.0,keep

@@ -1,0 +1,10 @@
+step,rows_before,rows_after,dropped,reason
+Remove duplicate session_id,65062,65062,0,session_id must be unique
+Drop missing start/end/kwh,65062,65062,0,Required to construct hourly charging load
+Remove invalid sessions,65062,65062,0,Require kwh > 0 and end > start
+Expand sessions to hourly records,65062,473831,0,Each charging session is expanded across active hours
+Aggregate to observed site-hours,473831,36856,0,Aggregate records by site and hourly timestamp
+Build complete hourly timeline,36856,56229,0,Add missing site-hour timestamps with zero charging load
+Weather short-gap interpolation,20,0,0,Fill short missing hourly temperature gaps
+Drop duplicate final site-ts,56229,56229,0,One record per site and timestamp
+Drop missing target kwh,56229,56229,0,Target kwh is required for forecasting

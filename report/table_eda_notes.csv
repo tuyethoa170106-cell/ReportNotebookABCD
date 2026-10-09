@@ -1,0 +1,5 @@
+column,finding,note
+kwh,strongly skewed,Skewness = 2.295. Consider transformation or tree-based models.
+sessions,strongly skewed,Skewness = 2.032. Consider transformation or tree-based models.
+price,strongly skewed,Skewness = 14.578. Consider transformation or tree-based models.
+price,missing values,6 missing values (0.0107%).

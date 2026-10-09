@@ -1,0 +1,3 @@
+model,MAE,RMSE
+LightGBM default,7.035,12.57
+LightGBM tuned,6.975,12.404

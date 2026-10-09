@@ -1,0 +1,1 @@
+Tải sạc EV thay đổi có ý nghĩa thống kê theo tháng (Kruskal-Wallis H = 337.14, p < 0.001). Tháng 10 có tải trung bình cao nhất (16.49 kWh), cao khoảng 1.48 lần so với tháng 4 (11.16 kWh).

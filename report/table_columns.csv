@@ -1,0 +1,7 @@
+column,role,decision,reason
+kwh,Target,Keep,Biến mục tiêu cần dự báo.
+ts,Time key,Keep,"Dùng để tạo đặc trưng giờ, ngày, tháng và lag."
+site,Unit key,Keep,Phân biệt Caltech và JPL.
+temp,External predictor,Keep,Có ý nghĩa vật lý; correlation với kWh = 0.216. Có thể có quan hệ phi tuyến.
+price,External predictor,Keep,Biến giá điện có ý nghĩa nghiệp vụ; correlation với kWh = -0.009. Không loại chỉ vì tương quan tuyến tính thấp.
+sessions,Operational predictor,Review for leakage,"Correlation với kWh rất cao = 0.957. Chỉ dùng nếu số session tại thời điểm dự báo thực sự có sẵn; nếu không, cần dùng lag của sessions thay vì giá trị cùng giờ."

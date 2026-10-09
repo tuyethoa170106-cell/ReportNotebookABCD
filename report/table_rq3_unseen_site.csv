@@ -1,0 +1,3 @@
+held_out_site,train_rows,test_rows,MAE_LightGBM,MAE_naive,improvement_vs_naive_%
+caltech,11419,14899,13.754,3.78,-263.829
+jpl,14611,14910,8.048,7.763,-3.671

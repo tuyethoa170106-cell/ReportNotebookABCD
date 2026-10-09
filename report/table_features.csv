@@ -1,0 +1,13 @@
+feature,group
+kwh,exogenous/structural
+sessions,exogenous/structural
+k_lag1,lag/rolling
+k_lag24,lag/rolling
+k_lag168,lag/rolling
+k_ma24,lag/rolling
+temp,exogenous/structural
+price,exogenous/structural
+hr,calendar
+dow,calendar
+mon,calendar
+site_code,exogenous/structural
